@@ -19,3 +19,8 @@ CREATE TABLE awards(
 
 
 -- More INSERT
+INSERT INTO awards (name, year, winner_id)
+    VALUES ('IIHS Safety Award', 2015, 49);
+
+INSERT INTO awards (name, year, winner_id)
+    VALUES ('IIHS Safety Award', 2015, 50);
