@@ -11,6 +11,11 @@ INSERT INTO models (year, brand_name, name)
 
 
 -- CREATE TABLE
+CREATE TABLE awards(
+    name VARCHAR(50) NOT NULL,
+    year INTEGER,
+    winner_id INTEGER NOT NULL
+    );
 
 
 -- More INSERT
